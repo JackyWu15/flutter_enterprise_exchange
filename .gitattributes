@@ -1,0 +1,5 @@
+# 将 Dart 设为可检测，并让 C++ 或其他误判语言不参与统计
+*.dart linguist-detectable=true
+*.cpp linguist-detectable=false
+*.cc linguist-detectable=false
+*.h linguist-detectable=false
