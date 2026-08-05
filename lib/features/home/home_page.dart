@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_enterprise_exchange/features/market/market_page.dart';
 import 'package:flutter_enterprise_exchange/features/profile/profile_page.dart';
 import 'package:flutter_enterprise_exchange/features/trade/trade_page.dart';
 import 'package:flutter_enterprise_exchange/features/wallet/wallet_page.dart';
+
+import '../market/presentation/pages/market_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
